@@ -1,0 +1,478 @@
+@media screen and (min-device-width: 1024px) {
+
+.menu-celular { display: none; }
+.footer-celular { display: none; }
+
+}
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@font-face {
+    font-family: KhmerUI;
+    src: url(../font/KhmerUI.ttf);
+}
+@font-face {
+    font-family: KhmerUIb;
+    src: url(../font/KhmerUIb.ttf);
+}
+@font-face {
+    font-family: tt0142m;
+    src: url(../font/tt0142m.ttf);
+}
+@font-face {
+    font-family: tt0144m;
+    src: url(../font/tt0144m.ttf);
+}
+
+html, body { height: 100%; }
+a { text-decoration: none; }
+.clearfix { clear: both; }
+a:focus { outline: 0; }
+
+/* Barra de Navegação */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background: radial-gradient(circle, rgba(15,0,0,1) 0%, rgba(142,26,214,1) 0%, rgba(12,0,36,1) 100%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: right;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+nav li:first-child {
+    margin-right: 2%;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+
+    font-family: tt0142m;
+    font-size: 19px;
+    text-decoration: none;
+    color: #bbbbd8;
+    text-align: center;
+}
+
+nav li img {
+    height: 46px;
+}
+
+.nav-logo {
+    float: left;
+    margin-left: 4%;
+    margin-top: 2px;
+    margin-right: 0;
+}
+
+.nav-logo a {
+    padding: 0;
+}
+
+/* Logo */
+.logo {
+    width: 100%;
+    height: 52%;
+    background: rgb(15,0,0);
+background: radial-gradient(circle, rgba(15,0,0,1) 0%, rgba(142,26,214,1) 0%, rgba(12,0,36,1) 100%);
+}
+
+.logo-top {
+    height: 59px;
+}
+
+.logo-down img {
+    height: 392px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-down {
+    background-position: right top, left top;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+/* Conteúdo */
+article h1, article h2, article h3 {
+    text-align: center;
+}
+
+article h1, article h2 {
+    font-family: KhmerUIb;
+}
+
+article h2, article h3 {
+    color: #8400ff;
+}
+
+article h1 {
+    
+    margin: 0;
+    padding: 3em 0 1em;
+    clear: both;
+}
+
+article h3 {
+    font-family: KhmerUI;
+}
+
+article p {
+    font-family: tt0142m;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #262626;
+}
+
+article {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top, bottom;
+    
+    background-image: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 40%, rgb(170, 141, 228) 90%);
+    overflow: auto;
+    z-index: 2;
+}
+
+/* Empresa */
+article h1:first-child {
+    padding-top: 2em;
+    
+}
+
+.article-left {
+    position: relative;
+    float: left;
+    width: 35%;
+    padding-left: 10%;
+    padding-right: 5%;
+    
+}
+
+.article-right {
+    position: relative;
+    float: right;
+    width: 35%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.article-left h2, .article-right h2 {
+    margin-top: 2em;
+}
+.article-left h2:first-child, .article-right h2:first-child {
+    margin-top: 1em;
+}
+.article-meio {
+    width: 80%;
+    padding: 0 10%;
+}
+.article-meio p {
+    text-indent: 2.4em;
+}
+.article-meio img {
+    margin: 0 auto;
+    height: 16em;
+    display: block;
+}
+
+.article-margin {
+    margin-bottom: 12em;
+}
+
+/* Clientes e Parceiros */
+.article-clientes {
+    width: 90%;
+    margin-left: 5%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+     -webkit-justify-content: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.article-clientes h3 {
+    color: #8400ff;
+    font-family: tt0142m;
+}
+
+.clientes-item {
+    width: 180px;
+    text-align: center;
+}
+
+.article-clientes img {
+    height: 100px;
+}
+
+/* Video */
+.video iframe {
+    width: 960px;
+    height: 540px;
+    margin-bottom: 4em;
+}
+
+/* Projetos */
+.article-projetos {
+    width: 100%;
+    text-align: center;
+}
+
+/* Equipe */
+.article-equipe {
+    width: 80%;
+    margin-left: 10%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+
+.equipe-item {
+    width: 180px;
+    text-align: center;
+}
+
+.article-equipe h3, .article-equipe h4 {
+    margin: 0.5em;
+}
+
+.article-equipe h4 {
+    font-family: tt0142m;
+    margin-bottom: 0.7em;
+}
+
+.article-equipe img {
+    border: 4px double #8c00ff;
+    border-radius: 10px;
+    height: 170px;
+}
+
+/* Footer - Contato */
+footer {
+    color: rgb(211, 207, 207);
+    width: 100%;
+    height: 42%;
+    background-image: radial-gradient(circle, rgba(15,0,0,1) 0%, rgba(142,26,214,1) 0%, rgba(12,0,36,1) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0px -3px 8px #8400ff;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 207, 207);
+}
+.footer-left {
+    width: 40%;
+    position: relative;
+    float: left;
+}
+.footer-left h1 {
+    font-family: KhmerUIb;
+    margin: 30px;
+    margin-right: 0px;
+}
+.footer-left h2, .footer-left h4 {
+    font-family: 'Arimo', sans-serif;
+    margin: 5px 0;
+}
+.footer-left img {
+    height: 2.5em;
+}
+.footer-left-1 {
+    width: 44%;
+    position: relative;
+    float: left;
+    margin-left: 6%;
+}
+.footer-left-2 {
+    width: 94%;
+    position: relative;
+    float: left;
+    margin-left: 6%;
+    margin-top: 30px;
+}
+
+.footer-left-2-logo:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.6s ease-in-out;
+}
+.footer-left-2-logo div {
+    position: relative;
+    float: left;
+    width: 33%;
+}
+.footer-left-2-logo img {
+    height: 5em;
+    margin-top: 2px;
+}
+
+.footer-map {
+    width: 100%;
+
+}
+#map { height: 280px; }
+
+/* FORM */
+.footer-right {
+    position: relative;
+    float: right;
+    width: 60%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"] {
+    font-family: "KhmerUI", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    width: 100%;
+    background: transparent;
+    padding: 30px;
+    box-sizing: border-box;
+    display: none;
+}
+
+#contact h3 {
+    color: white;
+    display: block;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    font-family: KhmerUIb;
+}
+
+#contact h4 {
+    color: white;
+    margin: 0 0 15px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+    width:100%;
+    border: 4px double #009F4F;
+    border-radius: 5px;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+
+
+#contact textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: #008cff;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#contact button[type="submit"]:hover {
+    background: white;
+    color: #008cff;
+    transition: background-color 0.6s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus, #contact textarea:focus {
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+  color:rgb(0, 132, 255);
+}
+:-moz-placeholder {
+  color:rgb(0, 132, 255);
+}
+::-moz-placeholder {
+ color:rgb(0, 132, 255);
+}
+:-ms-input-placeholder {
+  color:rgb(0, 132, 255);
+}
+
+/* credito */
+
+.credito a {
+    color: #132436;
+    text-decoration: underline;
+}
+.credito a:hover {
+    color: #2197bb;
+    transition: color 0.6s ease-in-out;
+}
+
+@media screen and (min-device-width: 1280px) {
+
+article h1:first-child {
+    padding-top: 3em;
+    
+}
+
+}/* FIM @media screen */
+
+@media screen and (min-device-width: 1920px) {
+
+article h1:first-child {
+    padding-top: 5em;
+    
+}
+
+
+}/* FIM @media screen */

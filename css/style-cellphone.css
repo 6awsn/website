@@ -1,0 +1,221 @@
+@media screen and (max-device-width: 767px){
+
+.menu-pc-tablet { display: none; }
+.footer-pc { display: none; }
+.footer-tablet-h4 { display: none; }
+
+/*-----------MENU---------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: radial-gradient (#f3f9f4, #eef6ef);
+}
+
+nav li:first-child {
+    margin-right: 0;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color:  #007948;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+nav li img {
+    height: 2.3em;
+}
+
+
+.nav-logo {
+    float: right;
+    margin: 3px 3% 0;
+    padding: 0;
+}
+
+.nav-logo a{
+    padding: 0;
+}
+
+.dropdown {
+    font-family: tt0142m;
+    float: left;
+    margin-right: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #007948;
+    background-color: #F1F8F2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.show {display:block;}
+
+/* Empresa */
+
+article p {
+    text-align: justify;
+}
+
+article h1 {
+    padding: 0;
+}
+
+
+
+.projetos-realizados {
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+}
+
+.article-left {
+    position: static;
+    float: none;
+    width: 80%;
+    padding: 0 10%;
+}
+.article-right {
+    position: static;
+    float: none;
+    width: 80%;
+    padding: 0 10%;
+}
+.article-meio {
+    width: 90%;
+    padding: 0px 5%;
+}
+.article-meio p {
+    text-indent: 1.2em;
+}
+
+/* Clientes e Parceiros */
+#clientes {
+    margin: 2em 0 1em;
+    font-size: 1.6em;
+}
+.clientes-item {
+    width: 130px;
+}
+.clietes-item h3 {
+    margin: 0.5em 0;
+}
+
+/* Equipe */
+#equipe {
+    margin: 1em 0;
+}
+.article-equipe {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 2em;
+}
+
+.equipe-item {
+    width: 150px;
+}
+
+.article-equipe h3, .article-equipe h4 {
+    margin: 0.3em;
+}
+
+.article-equipe h4 {
+    margin-bottom: 0.7em;
+}
+
+.article-equipe-celular img {
+    height: 5em;
+}
+
+.article-margin {
+    margin-bottom: 3em;
+}
+
+/* Logo */
+.logo-down {
+    background-image: none;
+    background-position: right top, left top;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.logo-down img {
+    max-width: 100%;   
+    height: auto;
+}
+
+/* Video */
+.video iframe {
+    width: 320px;
+    height: 180px;
+}
+
+/* Fales Conosco */
+footer {
+    background-image: linear-gradient(to bottom right, #8c00ff, #8c00ff);
+}
+
+.footer-right {
+    position: static;
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+}
+#contact {
+    padding: 0;
+}
+#contact h3 { 
+    margin-top: 1em;
+}
+
+.footer-left {
+    position: static;
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-left h1 {
+    margin: 1em 0;
+}
+.footer-left-1 {
+    width: 100%;
+    margin-left: 0;
+}
+.footer-left-2-logo {
+    position: relative;
+    margin-top: 0;
+    bottom: 0;
+}
+
+.endereco {
+    margin-top: 15px;
+}
+
+.logos {
+    margin-top: 15px;
+    margin-bottom: 35px; 
+}
+
+} /* Fim @media screen */
